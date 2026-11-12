@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kenneth Mejia · Desarrollador</title>
+  <meta name="description" content="Portafolio de Kenneth Mejia: habilidades y proyectos de desarrollo.">
+  <meta name="theme-color" content="#07090f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mask" viewBox="0 0 24 28">
+      <path d="M12 1C5.5 1 2 6 2 12.5 2 20 7 25.5 12 27c5-1.5 10-7 10-14.5C22 6 18.5 1 12 1Z"/>
+    </symbol>
+  </svg>
+
+  <header class="nav">
+    <a class="hud" href="#inicio" aria-label="Kenneth Mejia, inicio">
+      <span class="hud__soul" aria-hidden="true">&lt;/&gt;</span>
+      <span class="hud__masks" aria-hidden="true">
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">K</text></svg>
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">e</text></svg>
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">n</text></svg>
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">M</text></svg>
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">e</text></svg>
+        <svg viewBox="0 0 24 28"><use href="#mask"/><text x="12" y="18.5" text-anchor="middle">j</text></svg>
+      </span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <figure class="hero__photo">
+        <img src="img/image.jpeg" alt="Foto de Kenneth Mejia" width="420" height="560" onerror="this.remove()">
+        <span class="hero__initials" aria-hidden="true">KM</span>
+      </figure>
+
+      <div class="hero__text">
+        <p class="hero__role">Desarrollador de software</p>
+        <h1 class="hero__name">Kenneth Mejia</h1>
+        <div class="divider" aria-hidden="true"></div>
+        <p class="hero__lead">Exploro cada proyecto como un nuevo rincón por descubrir: con paciencia, código limpio y ganas de seguir aprendiendo.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="https://github.com/KenDev2105" target="_blank" rel="noopener">Mi GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="prose">
+        <p>Soy Kenneth Mejia, desarrollador desde El Salvador. Me gusta convertir ideas en páginas y aplicaciones que se vean bien y funcionen bien.</p>
+        <p>Uso GitHub como mi taller: ahí practico, pruebo ideas y publico lo que voy aprendiendo.</p>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Diseño responsive</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Herramientas</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Personales</h3>
+          <ul>
+            <li>Aprendizaje autónomo</li>
+            <li>Resolución de problemas</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <ol class="projects">
+
+        <li class="project">
+          <h3>Gestor de Peliculas</h3>
+          <p>Un sitio para llevar registro de peliculas y series de preferencia personal</p>
+          <p class="project__tech">HTML · CSS · Typescript</p>
+          <a class="project__link" href="https://kubrickcave.vercel.app" target="_blank" rel="noopener">Ver sitio</a>
+        </li>
+
+        <li class="project">
+          <h3>Proyecto en curso</h3>
+          <p>Coming soon</p>
+          <p class="project__tech">Coming Soon</p>
+          <a class="project__link" href="https://github.com/KenDev2105?tab=repositories" target="_blank" rel="noopener">Coming soon</a>
+        </li>
+
+      </ol>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <h2>Contacto</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <p>¿Tienes un proyecto o una oportunidad? Escríbeme o revisa mi código.</p>
+      <a class="btn btn--primary" href="https://github.com/KenDev2105" target="_blank" rel="noopener">github.com/KenDev2105</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="divider" aria-hidden="true"></div>
+    <p>© 2026 Kenneth Mejia</p>
+  </footer>
+
+</body>
+</html>
